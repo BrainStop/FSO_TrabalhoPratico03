@@ -36,7 +36,7 @@ public class interfaceRobo extends JFrame implements Runnable {
 
 	private vaguear vg = new vaguear(robo);
 	private fugir fug = new fugir(robo, vg);
-	private evitar evi = new evitar(robo, vg, fug);;
+	private evitar evi = new evitar(robo, vg, fug);
 	
 
 	// Funções auxiliares
